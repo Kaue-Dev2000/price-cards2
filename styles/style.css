@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+html{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background-image: url('https://images.pexels.com/photos/673648/pexels-photo-673648.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    font-family: 'Dancing Script', system-ui;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    width: 60%;
+    height: 100%;
+}
+
+.header{
+    border-radius: 2px;
+    padding: 10px;
+    background: rgb(214,169,169,);
+    background: radial-gradient(circle, rgba(214,169,169,.8) 0%, rgba(214,169,169,.8) 50%, rgba(242,140,140,.8) 100%);
+}
+
+.header__titulo{
+    text-align: center;
+    margin: 0 0 20px 0;
+    font-size: 80px;
+    color: white;
+    text-shadow: 2px 4px 4px black;
+}
+
+.header__subtitulo{
+    padding: 12px;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: fit-content;
+    margin: auto;
+    border-radius: 2px;
+}
+
+.header__subtitulo p{
+    text-align: center;
+    width: 550px;
+    margin: 0;
+    font-size: 23px;
+    color: white;
+}
+
+.cards{
+    border-radius: 2px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    height: 550px;
+    gap: 16px;
+    padding: 20px;
+}
+
+.cards__item{
+    display: flex;
+    align-items: end;
+    width: 30%;
+    flex-grow: 1;
+}
+
+.cards__item__title{
+    font-weight: normal;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 10px;
+    color: white;
+    width: 100%;
+    margin: 0;
+}
